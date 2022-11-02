@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tailwind';
+  isOn = false;
+
+  testButton() {
+    this.isOn = !this.isOn;
+  }
 }
